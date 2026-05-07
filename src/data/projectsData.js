@@ -1,21 +1,21 @@
 import gpsImage from '../assets/ProjectImages/3D_GPS.png';
-import coronaCastImage1 from '../assets/ProjectImages/coronaCast2.png';
-import coronaCastImage2 from '../assets/ProjectImages/coronaCast.png';
+// import coronaCastImage1 from '../assets/ProjectImages/coronaCast2.png';
+// import coronaCastImage2 from '../assets/ProjectImages/coronaCast.png';
 import cvHelperImage from '../assets/ProjectImages/CVHelper.png';
 import detectiveDomImage from '../assets/ProjectImages/detectiveDom.jpg';
 import ecoLearnImage from '../assets/ProjectImages/EcoLearnAppImage.png';
 import healthAppImage from '../assets/ProjectImages/healthAppImage.png';
 import hackinalImage from '../assets/ProjectImages/hackinal.png';
-import portfolioSiteImage from '../assets/ProjectImages/portfolioSite.png';
+// import portfolioSiteImage from '../assets/ProjectImages/portfolioSite.png';
 
 import cppIcon from '../assets/icons/cplusplus.svg';
 import csharpIcon from '../assets/icons/csharp.svg';
-import cssIcon from '../assets/icons/css.png';
-import html5Icon from '../assets/icons/html5.svg';
+// import cssIcon from '../assets/icons/css.png';
+// import html5Icon from '../assets/icons/html5.svg';
 import javaIcon from '../assets/icons/java.svg';
-import jsIcon from '../assets/icons/javascript.svg';
+// import jsIcon from '../assets/icons/javascript.svg';
 import pythonIcon from '../assets/icons/python.svg';
-import reactIcon from '../assets/icons/react.svg';
+// import reactIcon from '../assets/icons/react.svg';
 import reactPngIcon from '../assets/icons/react.png';
 import unityIcon from '../assets/icons/unity.svg';
 
