@@ -5,8 +5,8 @@ import cvHelperImage from '../assets/ProjectImages/CVHelper.png';
 import detectiveDomImage from '../assets/ProjectImages/detectiveDom.jpg';
 import ecoLearnImage from '../assets/ProjectImages/EcoLearnAppImage.png';
 import healthAppImage from '../assets/ProjectImages/healthAppImage.png';
+import hackinalImage from '../assets/ProjectImages/hackinal.png';
 import portfolioSiteImage from '../assets/ProjectImages/portfolioSite.png';
-// import hackinalImage from '../assets/ProjectImages/hackinal.png';
 
 import cppIcon from '../assets/icons/cplusplus.svg';
 import csharpIcon from '../assets/icons/csharp.svg';
@@ -20,6 +20,24 @@ import reactPngIcon from '../assets/icons/react.png';
 import unityIcon from '../assets/icons/unity.svg';
 
 const projectsData = [
+  {
+    id: 'GridHeist',
+    cardTitle: 'Grid Heist - Coming Soon',
+    cardSkills: 'Puzzle design, circuitry systems, stealth gameplay',
+    header: 'Grid Heist',
+    status: 'Coming Soon',
+    paragraphs: [
+      'Grid Heist is an upcoming puzzle stealth game centered on smart planning and tension. Players solve circuitry-driven puzzles to unlock routes, manipulate systems, and stay one step ahead of enemies and security cameras.',
+      'The core experience blends logical problem-solving with stealth, asking players to read the environment, reroute power, and create safe openings before moving through each space.',
+    ],
+    videos: [
+      {
+        src: '/videos/grid-heist-demo.mp4',
+        poster: hackinalImage,
+        title: 'Grid Heist gameplay preview',
+      },
+    ],
+  },
   {
     id: 'EcoLearn',
     cardTitle: 'EcoLearn - Carbon Tool',
@@ -109,28 +127,7 @@ const projectsData = [
     ],
     images: [{ src: healthAppImage, alt: 'Health app' }],
   },
-  {
-    id: 'CoronaCast',
-    cardTitle: 'Covid Risk Assessment Tool',
-    cardSkills: 'HTML, JavaScript, API implementation',
-    header: 'CoronaCast',
-    icons: [
-      { src: html5Icon, alt: 'HTML5 logo' },
-      { src: cssIcon, alt: 'CSS logo' },
-      { src: jsIcon, alt: 'JavaScript logo' },
-    ],
-    actions: [
-      { href: 'https://github.com/Ru-Hacks/Coronacast', label: 'GitHub', ghost: true },
-      { href: 'https://ru-hacks.github.io/Coronacast/index.html', label: 'Try It' },
-    ],
-    paragraphs: [
-      "Made during the RUhacks Hackathon, the purpose of this project is to provide the user an easy to understand determination of the risk of COVID-19 in their area. This project showcases the use of API implementation and an HTML + CSS frontend. We take the user's location and use the Google Maps API to determine the traffic congestion in the area. We also take in data such as their age, date of birth, and any immune deficiencies. Finally, WeatherAPI is used to factor in elements such as humidity and wind to determine the overall risk factor.",
-    ],
-    images: [
-      { src: coronaCastImage1, alt: 'CoronaCast screenshot 1' },
-      { src: coronaCastImage2, alt: 'CoronaCast screenshot 2' },
-    ],
-  },
+  
   // {
   //   id: 'Hackinal',
   //   cardTitle: 'Hackinal',
@@ -144,28 +141,28 @@ const projectsData = [
   //     { src: hackinalImage, alt: 'Hackinal game', className: 'portfolio__project-image--tall' },
   //   ],
   // },
-  {
-    id: 'PortfolioSite',
-    cardTitle: 'Portfolio Site',
-    cardSkills: 'React.js, CSS, HTML, JavaScript',
-    header: 'React.js Portfolio Site',
-    icons: [
-      { src: reactIcon, alt: 'React logo' },
-      { src: jsIcon, alt: 'JavaScript logo' },
-      { src: html5Icon, alt: 'HTML5 logo' },
-      { src: cssIcon, alt: 'CSS logo' },
-    ],
-    actions: [
-      {
-        href: 'https://github.com/arjunKa/React_Portfolio_website',
-        label: 'GitHub',
-      },
-    ],
-    paragraphs: [
-      'This section describes this portfolio site! It was built using React.js for the front-end and uses a clean and simple look while also having multiple nice-to-have features for easy user experience such as a responsive design which adapts to screen dimensions, meaning that it is usable on mobile. This portfolio website evolves and grows constantly as more projects and features are added; there will be much more to add.',
-    ],
-    images: [{ src: portfolioSiteImage, alt: 'Portfolio site' }],
-  },
+  // {
+  //   id: 'PortfolioSite',
+  //   cardTitle: 'Portfolio Site',
+  //   cardSkills: 'React.js, CSS, HTML, JavaScript',
+  //   header: 'React.js Portfolio Site',
+  //   icons: [
+  //     { src: reactIcon, alt: 'React logo' },
+  //     { src: jsIcon, alt: 'JavaScript logo' },
+  //     { src: html5Icon, alt: 'HTML5 logo' },
+  //     { src: cssIcon, alt: 'CSS logo' },
+  //   ],
+  //   actions: [
+  //     {
+  //       href: 'https://github.com/arjunKa/React_Portfolio_website',
+  //       label: 'GitHub',
+  //     },
+  //   ],
+  //   paragraphs: [
+  //     'This section describes this portfolio site! It was built using React.js for the front-end and uses a clean and simple look while also having multiple nice-to-have features for easy user experience such as a responsive design which adapts to screen dimensions, meaning that it is usable on mobile. This portfolio website evolves and grows constantly as more projects and features are added; there will be much more to add.',
+  //   ],
+  //   images: [{ src: portfolioSiteImage, alt: 'Portfolio site' }],
+  // },
   {
     id: 'DetectiveDom',
     cardTitle: 'Detective Dom (Game Demo)',

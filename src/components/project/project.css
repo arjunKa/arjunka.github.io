@@ -44,6 +44,26 @@
   gap: 1rem;
 }
 
+.portfolio__project-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.portfolio__project-status {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  background: #eef2ff;
+  color: #3730a3;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .portfolio__project-container-content-text p a,
 .portfolio__project-container-content-text ul a {
   color: #111827;
@@ -66,6 +86,13 @@
   width: 100%;
   border-radius: 12px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio__project-container-content-image video {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  background: #0f172a;
 }
 
 .portfolio__project-image--tall {

@@ -9,8 +9,10 @@ const Header = () => {
   return (
     <header className="portfolio__header section__padding" id="home">
       <div className="portfolio__header-content">
-        <p className="portfolio__eyebrow">{role}</p>
+        
         <h1 className="gradient__text">{heading}</h1>
+        <p className="portfolio__header-lead">{lead}</p>
+        <p className="portfolio__eyebrow">{role}</p>
         <p className="portfolio__header-lead">{lead}</p>
         <HeaderActions links={links} />
       </div>

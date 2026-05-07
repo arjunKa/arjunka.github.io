@@ -3,11 +3,11 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <footer className="portfolio__footer section__padding" id="contact">
+    <footer className="portfolio__footer" id="contact">
       <div className="portfolio__footer-content">
         <p className="section__label">Contact</p>
-        <h2 className="portfolio__footer_header">Let's connect</h2>
-        <p className="section__subtext">Open to roles, collaborations, and feedback.</p>
+        {/* <h2 className="portfolio__footer_header">Let's connect</h2>
+        <p className="section__subtext">Open to roles, collaborations, and feedback.</p> */}
 
         <div className="portfolio__footer-content-contacts">
           <a className="portfolio__contact-card" href="mailto:arjkaura@outlook.com">

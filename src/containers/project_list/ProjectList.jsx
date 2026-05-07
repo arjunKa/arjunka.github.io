@@ -7,11 +7,11 @@ const ProjectList = () => {
   return (
     <div className="portfolio__projectList" id="projects">
       <div className="portfolio__projectList-heading">
-        <p className="section__label">Selected work</p>
+        {/* <p className="section__label">Selected work</p> */}
         <h2 id="projects-title">Projects</h2>
-        <p className="section__subtext">
+        {/* <p className="section__subtext">
           A quick scan of highlights. Jump into details below for full context.
-        </p>
+        </p> */}
       </div>
       <div className="portfolio__projectList-container">
         <div className="portfolio__projectList-container_groupB">

@@ -4,25 +4,30 @@ import './project.css';
 const Project = ({ project }) => {
   const {
     header,
+    status,
     icons = [],
     actions = [],
     paragraphs = [],
     extraLinksHeading,
     extraLinks = [],
     images = [],
+    videos = [],
   } = project;
-  const hasImages = images.length > 0;
+  const hasVisuals = images.length > 0 || videos.length > 0;
 
   return (
     <div className="portfolio__project-container">
       <div className="portfolio__project-container-content">
         <div
           className={`portfolio__project-container-content-image-and-text${
-            hasImages ? '' : ' portfolio__project-container-content-image-and-text--text-only'
+            hasVisuals ? '' : ' portfolio__project-container-content-image-and-text--text-only'
           }`}
         >
           <div className="portfolio__project-container-content-text">
-            <h3>{header}</h3>
+            <div className="portfolio__project-heading">
+              <h3>{header}</h3>
+              {status ? <p className="portfolio__project-status">{status}</p> : null}
+            </div>
 
             {icons.length > 0 ? (
               <div className="portfolio__project-container-content-logos">
@@ -70,8 +75,24 @@ const Project = ({ project }) => {
             ) : null}
           </div>
 
-          {hasImages ? (
+          {hasVisuals ? (
             <div className="portfolio__project-container-content-image">
+              {videos.map(({ src, poster, title, className }) => (
+                <video
+                  key={src}
+                  className={className || ''}
+                  src={src}
+                  poster={poster}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  preload="metadata"
+                  aria-label={title}
+                >
+                  Your browser does not support the video tag.
+                </video>
+              ))}
               {images.map(({ src, alt, className }) => (
                 <img key={alt} src={src} alt={alt} className={className || ''} />
               ))}

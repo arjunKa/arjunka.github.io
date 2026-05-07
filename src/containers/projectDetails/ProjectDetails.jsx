@@ -6,13 +6,13 @@ import projectsData from '../../data/projectsData';
 const ProjectDetails = () => {
   return (
     <div className="portfolio__projectDetails" id="projectDetails">
-      <div className="portfolio__projectDetails-heading">
+      {/* <div className="portfolio__projectDetails-heading">
         <p className="section__label">Deep dive</p>
-        <h2 id="projects-detail-title">Projects in Detail</h2>
+        <h2 id="projects-detail-title">Projects</h2>
         <p className="section__subtext">
-          Outcomes, tech stacks, and decisions behind each build.
+          G.
         </p>
-      </div>
+      </div> */}
 
       <div className="portfolio__projectDetails-container_group">
         {projectsData.map((project) => (

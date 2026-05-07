@@ -1,8 +1,8 @@
 const HEADER_CONTENT = {
-  role: 'Software Engineer',
-  heading: "Hi, I'm Arjun",
+  role: 'Software Engineer + Game Developer + Writer',
+  heading: "Arjun K",
   lead:
-    'Full-stack engineer with backend and IaC depth. I design clean, layered systems and ship microservices in languages such as C#, Java, Python, alongside modern frontend work.',
+    '',
   links: [
     {
       href: 'https://github.com/arjunKa/',
