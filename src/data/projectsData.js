@@ -45,9 +45,7 @@ const projectsData = [
     header: 'Binary',
     paragraphs: [
       'Binary is a React + Vite implementation of the Black and White game from The Genius, built as a focused 1v1 strategy experience.',
-      'It supports local play against an inference-based AI opponent, as well as realtime online room-code play between two browsers using Supabase Realtime.',
-      'Online mode includes private room creation and code sharing, public room discovery, automatic match start when both players are present, and expiration for waiting public rooms.',
-      'The online UI keeps numbers hidden for gameplay tension, while still being a client-rendered game intended for fun play rather than a cheat-proof competitive backend.',
+      'It supports local play against an inference-based AI opponent, as well as realtime online room-code play between two browsers using Supabase Realtime. The online UI keeps numbers hidden for gameplay tension, while still being a client-rendered game intended for fun play rather than a cheat-proof competitive backend.',
     ],
     actions: [{ href: 'https://www.arjunkaura.com/binary', label: 'Try It' }],
     videos: [
