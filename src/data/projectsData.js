@@ -49,6 +49,7 @@ const projectsData = [
       'Online mode includes private room creation and code sharing, public room discovery, automatic match start when both players are present, and expiration for waiting public rooms.',
       'The online UI keeps numbers hidden for gameplay tension, while still being a client-rendered game intended for fun play rather than a cheat-proof competitive backend.',
     ],
+    actions: [{ href: 'https://www.arjunkaura.com/binary', label: 'Try It' }],
     videos: [
       {
         src: '/videos/Binary_Edit.mp4',
