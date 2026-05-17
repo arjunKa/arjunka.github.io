@@ -11,7 +11,7 @@ const App = () => (
     </div>
 
     <main>
-      <section className="section__wrap" aria-labelledby="projects-title">
+      <section className="section__wrap section__wrap--projects" aria-labelledby="projects-title">
         <ProjectList />
       </section>
 
