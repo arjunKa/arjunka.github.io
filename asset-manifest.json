@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.60c755ec.css",
-    "main.js": "/static/js/main.c8f7b1ac.js",
+    "main.js": "/static/js/main.2f609969.js",
     "static/js/787.5d06ac3c.chunk.js": "/static/js/787.5d06ac3c.chunk.js",
     "static/media/3D_GPS.png": "/static/media/3D_GPS.7864523e62ea38baab5f.png",
     "static/media/EcoLearnAppImage.png": "/static/media/EcoLearnAppImage.319510d286db0ad7670b.png",
@@ -16,11 +16,11 @@
     "static/media/unity.svg": "/static/media/unity.03cafb12af52b9268e531aca13d1dfd5.svg",
     "index.html": "/index.html",
     "main.60c755ec.css.map": "/static/css/main.60c755ec.css.map",
-    "main.c8f7b1ac.js.map": "/static/js/main.c8f7b1ac.js.map",
+    "main.2f609969.js.map": "/static/js/main.2f609969.js.map",
     "787.5d06ac3c.chunk.js.map": "/static/js/787.5d06ac3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60c755ec.css",
-    "static/js/main.c8f7b1ac.js"
+    "static/js/main.2f609969.js"
   ]
 }
