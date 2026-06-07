@@ -20,24 +20,24 @@ import reactPngIcon from '../assets/icons/react.png';
 import unityIcon from '../assets/icons/unity.svg';
 
 const projectsData = [
-  {
-    id: 'GridHeist',
-    cardTitle: 'Grid Heist - Coming Soon',
-    cardSkills: 'Puzzle design, circuitry systems, stealth gameplay',
-    header: 'Grid Heist',
-    status: 'Coming Soon',
-    paragraphs: [
-      'Grid Heist is an upcoming puzzle stealth game centered on smart planning and tension. Players solve circuitry-driven puzzles to unlock routes, manipulate systems, and stay one step ahead of enemies and security cameras.',
-      'The core experience blends logical problem-solving with stealth, asking players to read the environment, reroute power, and create safe openings before moving through each space.',
-    ],
-    videos: [
-      {
-        src: '/videos/grid-heist-demo.mp4',
-        poster: hackinalImage,
-        title: 'Grid Heist gameplay preview',
-      },
-    ],
-  },
+  // {
+  //   id: 'GridHeist',
+  //   cardTitle: 'Grid Heist - Coming Soon',
+  //   cardSkills: 'Puzzle design, circuitry systems, stealth gameplay',
+  //   header: 'Grid Heist',
+  //   status: 'Coming Soon',
+  //   paragraphs: [
+  //     'Grid Heist is an upcoming puzzle stealth game centered on smart planning and tension. Players solve circuitry-driven puzzles to unlock routes, manipulate systems, and stay one step ahead of enemies and security cameras.',
+  //     'The core experience blends logical problem-solving with stealth, asking players to read the environment, reroute power, and create safe openings before moving through each space.',
+  //   ],
+  //   videos: [
+  //     {
+  //       src: '/videos/grid-heist-demo.mp4',
+  //       poster: hackinalImage,
+  //       title: 'Grid Heist gameplay preview',
+  //     },
+  //   ],
+  // },
   {
     id: 'Binary',
     cardTitle: 'Binary - 1v1 Strategy Game',
