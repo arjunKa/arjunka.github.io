@@ -17,6 +17,9 @@
   color: #6b7280;
   font-weight: 700;
   margin-bottom: 1rem;
+  line-height: 1.5;
+  padding-inline: 0.5rem;
+  overflow-wrap: anywhere;
 }
 
 .portfolio__header h1 {
@@ -62,5 +65,11 @@
 
   .portfolio__header-lead {
     font-size: 16px;
+  }
+
+  .portfolio__eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    padding-inline: 0.75rem;
   }
 }

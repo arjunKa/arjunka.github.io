@@ -27,6 +27,10 @@ a {
   padding: 4rem 0;
 }
 
+.section__wrap--projects {
+  padding: 2rem 0 1.5rem;
+}
+
 .section__alt {
   background: #fafafa;
   border-top: 1px solid #eeeeee;
@@ -97,6 +101,10 @@ main {
   .section__padding,
   .section__wrap {
     padding: 3rem 0;
+  }
+
+  .section__wrap--projects {
+    padding: 1.25rem 0 1rem;
   }
 
   .section__subtext {
