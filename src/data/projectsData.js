@@ -49,11 +49,11 @@ const projectsData = [
     ],
     actions: [
       {
-        href: 'https://github.com/arjunKa/EcoLearning',
+        href: 'https://github.com/arjunKa/EcoLearn',
         label: 'GitHub',
         ghost: true,
       },
-      { href: 'https://www.ecolearn.ca', label: 'Try it' },
+      { href: 'https://arjunkaura.com/EcoLearn/', label: 'Try it' },
     ],
     paragraphs: [
       'A web app that lets you record your carbon reduction and quantify your impact. This project was used by LSF to help students quantify their impact on sustainability projects. A custom-made REST API was built to call and retrieve all the data needed for the calculations, and the data is based on research on carbon emissions in Canada. The tools used are Django, React, PostgreSQL and Azure for deployment.',
