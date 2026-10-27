@@ -10,9 +10,9 @@ const Footer = () => {
         <p className="section__subtext">Open to roles, collaborations, and feedback.</p> */}
 
         <div className="portfolio__footer-content-contacts">
-          <a className="portfolio__contact-card" href="mailto:arjkaura@outlook.com">
+          <a className="portfolio__contact-card" href="mailto:me@arjunkaura.com">
             <p className="portfolio__contact-label">Email</p>
-            <p className="portfolio__contact-value">arjkaura@outlook.com</p>
+            <p className="portfolio__contact-value">me@arjunkaura.com</p>
           </a>
           <a
             className="portfolio__contact-card"
